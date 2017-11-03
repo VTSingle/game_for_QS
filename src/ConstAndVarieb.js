@@ -1,0 +1,23 @@
+const SCORE_FOR_DIE_ALIENS = 10;
+const LEVEL_SCORE = 100;
+const MIN_LEFT_POSITION_ALIENS = 50;
+const MAX_RIGHT_POSITION_ALIENS = window.innerWidth - 50;
+const CHECK_LEFT_MAX_POSITION_SHIP = 32;
+const CHECK_RIGHT_MAX_POSITION_SHIP = window.innerWidth - 32;
+const CHECK_DOWN_MAX_POSITION_SHIP = window.innerHeight - 32;
+const SPEED_BACKGROUND = 2;
+const BULLET_SPEED = -400;
+const DIST_BOMB = 300;
+const PLAYER_SPEED = 400;
+
+let levelUpX = 1;
+let levelUpY = 1;
+let number = 0;
+let scoreBullets = 1;
+let level = 1;
+let bulletTime = 0;
+let score = 0;
+let cordAlienX;
+let cordAlienY;
+let CheckTakeFire = false;
+let CheckTakeBomb = false;

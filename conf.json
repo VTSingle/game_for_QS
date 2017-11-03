@@ -1,0 +1,69 @@
+{
+  "_starfield": {
+    "key": "starfield",
+    "url": "img/starfield.png"
+  },
+  "_bullet": {
+    "key": "bullet",
+    "url": "img/bullet.png"
+  },
+  "_bulletBIG": {
+    "key": "bulletBIG",
+    "url": "img/bulletBIG.png"
+  },
+  "_bomb": {
+    "key": "bomb",
+    "url": "img/bomb.png"
+  },
+  "_invader": {
+  "key": "invader",
+  "url": "img/invader32x32x4.png"
+  },
+  "_invader2": {
+    "key": "invader2",
+    "url": "img/invader2.png"
+  },
+  "_ship": {
+    "key": "ship",
+    "url": "img/player.png"
+  },
+  "_kaboom": {
+    "key": "kaboom",
+    "url": "img/explode.png"
+  },
+  "_Cosmos": {
+    "key": "Cosmos",
+    "url": "audio/Cosmos.mp3"
+  },
+  "_mBomb": {
+    "key": "mBomb",
+    "url": "audio/mBomb.mp3"
+  },
+  "_view": {
+    "key": "view",
+    "url": "src/View.js",
+    "level":1
+  },
+  "_player": {
+    "key": "player",
+    "url": "src/Player.js"
+  },
+  "_weapons": {
+    "key": "weapons",
+    "url": "src/Weapons.js"
+  },
+  "_checkCollisionHandler": {
+    "key": "checkCollisionHandler",
+    "url": "src/CheckCollisionHandler.js",
+    "scoreBullets":1,
+    "level":1
+  },
+  "_badAliens": {
+    "key": "badAliens",
+    "url": "src/BadAliens.js"
+  },
+  "_constAndVarieb": {
+    "key": "constAndVarieb",
+    "url": "src/ConstAndVarieb.js"
+  }
+}
