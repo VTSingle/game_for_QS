@@ -1,7 +1,6 @@
 class Weapons {
 
     constructor(name){
-
         this.bullets = game.add.group();
         this.bullets.enableBody = true;
         this.bullets.physicsBodyType = Phaser.Physics.ARCADE;
@@ -10,6 +9,12 @@ class Weapons {
         this.bullets.setAll('anchor.y', 1);
         this.bullets.setAll('outOfBoundsKill', true);
         this.bullets.setAll('checkWorldBounds', true);
+
+    }
+
+    create(name){
+
+        this.bullets.create(cordAlienX,  cordAlienY,name);
 
     }
 
@@ -39,12 +44,6 @@ class NewWeaponFire extends Weapons{
 
     }
 
-    createFire(){
-
-        this.bullets.create(cordAlienX,  cordAlienY, constText._bulletBIG.key);
-
-    }
-
     collisionHandlerWithFireWeapon(bullet, newWeaponFire){
 
         scoreBullets = 5;
@@ -68,12 +67,6 @@ class NewWeaponBomb extends Weapons{
     constructor(){
 
         super(constText._bomb.key);
-
-    }
-
-    createBomb(){
-
-        this.bullets.create(cordAlienX,  cordAlienY, constText._bomb.key);
 
     }
 

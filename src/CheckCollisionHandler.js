@@ -20,13 +20,13 @@ class CheckCollisionHandler{
                     case 0:
                         cordAlienX = alien.x;
                         cordAlienY = alien.y;
-                        newWeaponFire.createFire();
+                        newWeaponFire.create(constText._bulletBIG.key);
                         bullet.kill();
                         break;
                     case 1:
                         cordAlienX = alien.x;
                         cordAlienY = alien.y;
-                        newWeaponBomb.createBomb();
+                        newWeaponBomb.create(constText._bomb.key);
                         bullet.kill();
                         break;
                 }
